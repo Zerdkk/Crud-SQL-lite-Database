@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALLite Database"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/txt_id"
+        android:hint="Enter Id"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:inputType="text"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/txt_name"
+        android:hint="Enter Name"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:inputType="text"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/txt_marks"
+        android:hint="Enter Marks"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:inputType="text"
+        android:textColorHint="@color/black"/>
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Insert"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/baseline_add_24"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="View Dta"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Update Data"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Delete Data"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
